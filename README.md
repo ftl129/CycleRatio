@@ -1,5 +1,8 @@
 # CycleRatio
 Data and Codes from the paper "Characterizing cycle structure in complex networks"
+
+The codes of three benchmark indices, degree, H-index and coreness, are from the reference "Lü, L., Zhou, T., Zhang, Q.M., Stanley, H.E., 2016b. The H-index of a network node and its relation to degree and coreness. Nat. Commun. 7, 10168" .
+
 The 6 empirical network data come from the following references:
     1. C. elegans: Rossi, R.A., Ahmed, N.K., 2015. The network data repository with interactive graph analytics and visualization, in: Twenty-Ninth AAAI Conference on Artificial Intelligence. AAAI Press, Austin, Texas, pp. 4292–4293.
     2. Email: Guimerà, R., Danon, L., Díaz-Guilera, A., Giralt, F., Arenas, A., 2003. Self-similar community structure in a network of human interactions. Phys. Rev. E 68, 065103.
