@@ -1,7 +1,3 @@
-# -*-coding:GBK-*-
-__author__ = 'tianlong'
-
-
 '''
  ============================================================================
  Name        : Characterizing cycle structure in complex networks
@@ -16,6 +12,8 @@ __author__ = 'tianlong'
  ============================================================================
 '''
 
+# -*-coding:GBK-*-
+__author__ = 'tianlong'
 
 import time
 import networkx as nx
@@ -23,14 +21,9 @@ import itertools
 
 
 
-
-
 NetworkAddress = r'Network file path'
 OutputDistributionFile = 'outputpath'
-networkName = '1order_Celegans'
-
-
-
+networkName = 'networkname'
 
 
 Mygraph = nx.Graph()
@@ -50,14 +43,10 @@ file.close()
 
 
 
-
-
 NodeNum = Mygraph.number_of_nodes()  #
 print(networkName)
 print('Number of nodes = ', NodeNum)
 print("Number of deges:", Mygraph.number_of_edges())
-
-
 
 
 
